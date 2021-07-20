@@ -31,7 +31,7 @@ function solution(lottos, win_nums) {
       6: 1
   };
   
-  if (winCount === 0 && winCount + zeroCount === 0) return [6, 6]
+  if (winCount === 0 && winCount + zeroCount === 0) return [6, 6];
 
   let result = [];
   for (let key in rankObj) {
