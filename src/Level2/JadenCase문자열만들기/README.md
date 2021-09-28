@@ -11,3 +11,11 @@ JadenCase란 모든 단어의 첫 문자가 대문자이고, 그 외의 알파�
 - s는 길이 1 이상인 문자열입니다.
 - s는 알파벳과 공백문자(" ")로 이루어져 있습니다.
 - 첫 문자가 영문이 아닐때에는 이어지는 영문은 소문자로 씁니다. ( 첫번째 입출력 예 참고 )
+
+##### 입출력 예
+
+let output = solution("3people unFollowed me");
+console.log(output); // "3people Unfollowed Me"
+
+output = solution("for the last week");
+console.log(output); // "For The Last Week"
